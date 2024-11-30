@@ -24,6 +24,8 @@
 .sidebar header {
     display: flex;
     flex-direction: row;
+    font-size: larger;
+    font-weight: bold;
 }
 
 header>span {
@@ -50,4 +52,8 @@ ul {
 
 li>img {
     width: 25px;
+}
+
+div>ul {
+    margin-top: 5em;
 }
