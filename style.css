@@ -1,0 +1,18 @@
+.sidebar {
+    background-color: rgb(42, 138, 216);
+}
+
+.dashboard-icon {
+    width: 25%;
+    height: 25%;
+}
+
+.sidebar header {
+    display: flex;
+    flex-direction: row;
+}
+
+header>p {
+    margin-top: 5em;
+
+}
