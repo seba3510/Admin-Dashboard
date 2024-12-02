@@ -13,6 +13,7 @@
     background-color: rgb(42, 138, 216);
     display: flex;
     flex-direction: column;
+    height: 50vh;
 
 }
 
@@ -80,6 +81,7 @@ a {
     justify-content: flex-end;
     align-items: center;
     margin-top: -3em;
+    margin-right: 2em;
 }
 
 
@@ -98,4 +100,33 @@ a {
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    margin-top: 10em;
+    margin-left: 2em;
+
+}
+
+
+.right {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65%;
+    gap: 50px;
+}
+
+button {
+
+    background-color: rgb(42, 138, 216);
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+
+.top span {
+    font-weight: bold;
+}
+
+
+.header {
+    border-bottom: 2px solid black;
 }
