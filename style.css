@@ -24,6 +24,7 @@
 .sidebar .title {
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .navigation,
