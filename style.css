@@ -20,7 +20,6 @@
 .sidebar {
     background-color: rgb(61, 161, 228);
     display: grid;
-    grid-template-rows: auto 1fr 1fr;
 
 
 }
