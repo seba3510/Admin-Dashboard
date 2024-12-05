@@ -12,14 +12,26 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr 6fr;
 }
 
-
 .sidebar {
-    background-color: rgb(61, 161, 228);
-    display: grid;
+    background-color: rgb(60, 155, 237);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 245px;
+}
 
+.sidebar .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+.navigation>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px
 }
