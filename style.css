@@ -9,23 +9,18 @@
     font-family: "Roboto";
 }
 
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
-    grid-template-areas: "sidebar header", "sidebar main";
-
 }
 
 
-header {
+.sidebar {
+    background-color: rgb(61, 161, 228);
     display: grid;
-    grid-area: header;
-    grid-template-columns: 2fr 1fr;
-    margin-top: 20px;
-}
+    grid-template-rows: auto 1fr 1fr;
 
-#profile-picture {
-    border-radius: 50%;
-    border: 2px solid red;
+
 }
