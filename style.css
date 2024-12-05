@@ -16,3 +16,16 @@
     grid-template-areas: "sidebar header", "sidebar main";
 
 }
+
+
+header {
+    display: grid;
+    grid-area: header;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 20px;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    border: 2px solid red;
+}
