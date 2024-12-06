@@ -49,6 +49,7 @@ header {
 header .left {
     display: grid;
     grid-template-rows: auto 100px;
+    margin-left: 1em;
 
 }
 
@@ -91,5 +92,5 @@ header .right {
     justify-content: flex-end;
     align-items: center;
     gap: 15px;
-    margin-right: 5em;
+    margin-right: 15%;
 }
