@@ -14,6 +14,7 @@
     display: grid;
     grid-template-columns: 1fr 8fr;
     grid-template-rows: 1fr 5fr;
+    position: fixed;
 
 }
 
@@ -21,6 +22,8 @@
     background-color: rgb(80, 158, 237);
     height: 100vh;
     width: 300px;
+    /* position: sticky; */
+    /* bottom: 0; */
 }
 
 .sidebar a {
