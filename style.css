@@ -28,6 +28,7 @@
 
 .sidebar a {
     color: white;
+    align-items: center;
 }
 
 .profile-picture {
@@ -93,4 +94,27 @@ header .right {
     align-items: center;
     gap: 15px;
     margin-right: 15%;
+}
+
+
+/* .sidebar {
+    display: grid;
+    grid-template-rows: auto 1fr 1fr;
+} */
+
+
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.navigation>div,
+.branding>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
