@@ -118,3 +118,10 @@ header .right {
     align-items: center;
     gap: 10px;
 }
+
+
+
+.branding,
+.navigation {
+    margin-top: 2em;
+}
