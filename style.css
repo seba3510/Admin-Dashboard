@@ -12,66 +12,52 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 6fr;
-    grid-template-rows: 1fr 7fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
 
 }
 
 .sidebar {
-    background-color: rgb(60, 155, 237);
-    display: flex;
-    flex-direction: column;
+    background-color: rgb(80, 158, 237);
     height: 100vh;
-    width: 280px;
-    position: fixed;
-}
-
-.sidebar .title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.navigation,
-.branding {
-    margin-top: 40px;
-}
-
-
-
-.navigation>div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-    margin: 20px;
-}
-
-
-.branding>div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-    margin: 20px;
 
 }
 
 .sidebar a {
     color: white;
-    text-decoration: none;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    height: 50px;
+    border: 2px solid black;
 }
 
 
 header {
     display: grid;
+    grid-template-rows: 10% 20%;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 100px);
+    height: fit-content;
+    border-bottom: 5px solid;
+}
+
+header .left {
+    display: grid;
+    grid-template-rows: auto 100px;
 
 }
 
-
 #profile-picture {
     border-radius: 50%;
-    height: 1.25rem;
+    height: 50px;
+    border: 2px solid black;
+
+}
+
+.greeting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
