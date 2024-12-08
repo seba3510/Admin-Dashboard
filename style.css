@@ -12,18 +12,17 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 0.5fr 4fr;
     grid-template-rows: 1fr 5fr;
-    position: fixed;
+
 
 }
 
 .sidebar {
     background-color: rgb(80, 158, 237);
     height: 100vh;
-    width: 300px;
-    /* position: sticky; */
-    /* bottom: 0; */
+    width: 280px;
+    position: absolute;
 }
 
 .sidebar a {
@@ -42,6 +41,7 @@ header {
     display: grid;
     grid-template-rows: 10% 20%;
     grid-template-columns: repeat(2, 1fr);
+    grid-column: 2;
     height: fit-content;
     border-bottom: 5px solid;
     margin-top: 5px;
