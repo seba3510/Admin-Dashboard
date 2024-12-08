@@ -99,10 +99,6 @@ header .right {
 }
 
 
-/* .sidebar {
-    display: grid;
-    grid-template-rows: auto 1fr 1fr;
-} */
 
 
 
@@ -126,4 +122,61 @@ header .right {
 .branding,
 .navigation {
     margin-top: 2em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-column-start: 2;
+}
+
+
+main .left h2,
+main .left h3 {
+    margin-top: 10px;
+    margin-left: 1em;
+
+}
+
+main .left {
+    grid-row: 2 / 4;
+    margin-left: 2em;
+    width: 40%;
+
+}
+
+#super-cool-project .title {
+    margin-top: 30px;
+}
+
+
+#super-cool-project {
+    border-left: 5px solid rgb(221, 175, 67);
+    height: 20vh;
+    border-radius: 20px;
+    box-shadow: 0 3px rgb(207, 205, 205);
+
+
+}
+
+
+#super-cool-project h3 {
+    margin-top: 2em;
+}
+
+#super-cool-project p {
+    margin-top: 10px;
+    margin-left: 1em;
+}
+
+main .left .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 1em;
+    margin-right: 5px;
+    gap: 20px;
+
+
 }
