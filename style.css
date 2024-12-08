@@ -155,14 +155,17 @@ main {
 #less-cool-project h3,
 #less-cool-project p,
 #impossible-app h3,
-#impossible-app p {
+#impossible-app p,
+#easy-peasy-app h3,
+#easy-peasy-app p {
     margin-top: 20px;
     margin-left: 10px;
 }
 
 #super-cool-project .icons,
 #less-cool-project .icons,
-#impossible-app .icons {
+#impossible-app .icons,
+#easy-peasy-app .icons {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -173,6 +176,20 @@ main {
 
 #impossible-app {
     grid-column: 1;
+    grid-row: 3;
+    border-left: 5px solid rgb(223, 179, 76);
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5%;
+    height: 20vh;
+    width: 350px;
+    box-shadow: 0 3px rgb(213, 211, 211);
+    overflow: hidden;
+}
+
+
+#easy-peasy-app {
+    grid-column: 2;
     grid-row: 3;
     border-left: 5px solid rgb(223, 179, 76);
     margin-left: 30px;
