@@ -137,7 +137,8 @@ main {
 
 
 #super-cool-project,
-#less-cool-project {
+#less-cool-project,
+#impossible-app {
     grid-row-start: 2;
     border-left: 5px solid rgb(223, 179, 76);
     margin-left: 30px;
@@ -153,13 +154,16 @@ main {
 #super-cool-project h3,
 #super-cool-project p,
 #less-cool-project h3,
-#less-cool-project p {
+#less-cool-project p,
+#impossible-app h3,
+#impossible-app p {
     margin-top: 20px;
     margin-left: 10px;
 }
 
 #super-cool-project .icons,
-#less-cool-project .icons {
+#less-cool-project .icons,
+#impossible-app .icons {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
