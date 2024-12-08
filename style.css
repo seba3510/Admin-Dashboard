@@ -159,7 +159,9 @@ main {
 #easy-peasy-app h3,
 #easy-peasy-app p,
 #ad-blocker h3,
-#ad-blocker p {
+#ad-blocker p,
+#money-maker h3,
+#money-maker p {
     margin-top: 20px;
     margin-left: 10px;
 }
@@ -168,7 +170,8 @@ main {
 #less-cool-project .icons,
 #impossible-app .icons,
 #easy-peasy-app .icons,
-#ad-blocker .icons {
+#ad-blocker .icons,
+#money-maker .icons {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -206,6 +209,19 @@ main {
 
 #ad-blocker {
     grid-column: 1;
+    grid-row: 4;
+    border-left: 5px solid rgb(223, 179, 76);
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5%;
+    height: 20vh;
+    width: 350px;
+    box-shadow: 0 3px rgb(213, 211, 211);
+    overflow: hidden;
+}
+
+#money-maker {
+    grid-column: 2;
     grid-row: 4;
     border-left: 5px solid rgb(223, 179, 76);
     margin-left: 30px;
