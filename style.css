@@ -21,7 +21,7 @@
 .sidebar {
     background-color: rgb(80, 158, 237);
     height: 100vh;
-    width: 280px;
+    width: 282px;
     position: absolute;
 }
 
@@ -41,7 +41,7 @@ header {
     display: grid;
     grid-template-rows: 10% 20%;
     grid-template-columns: repeat(2, 1fr);
-    grid-column: 2;
+    grid-column-start: 2;
     height: fit-content;
     border-bottom: 5px solid;
     margin-top: 5px;
@@ -50,7 +50,8 @@ header {
 header .left {
     display: grid;
     grid-template-rows: auto 100px;
-    margin-left: 1em;
+    margin-left: 10em;
+    margin-top: 1em;
 
 }
 
@@ -71,6 +72,7 @@ header .left {
 header .right {
     display: grid;
     grid-template-rows: auto 100px;
+    margin-top: 1em;
 }
 
 
