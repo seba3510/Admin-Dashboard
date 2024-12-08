@@ -130,7 +130,7 @@ header .right {
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-column-start: 2;
     margin-left: calc(100px * 1em);
 }
@@ -157,7 +157,9 @@ main {
 #impossible-app h3,
 #impossible-app p,
 #easy-peasy-app h3,
-#easy-peasy-app p {
+#easy-peasy-app p,
+#ad-blocker h3,
+#ad-blocker p {
     margin-top: 20px;
     margin-left: 10px;
 }
@@ -165,7 +167,8 @@ main {
 #super-cool-project .icons,
 #less-cool-project .icons,
 #impossible-app .icons,
-#easy-peasy-app .icons {
+#easy-peasy-app .icons,
+#ad-blocker .icons {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -191,6 +194,19 @@ main {
 #easy-peasy-app {
     grid-column: 2;
     grid-row: 3;
+    border-left: 5px solid rgb(223, 179, 76);
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5%;
+    height: 20vh;
+    width: 350px;
+    box-shadow: 0 3px rgb(213, 211, 211);
+    overflow: hidden;
+}
+
+#ad-blocker {
+    grid-column: 1;
+    grid-row: 4;
     border-left: 5px solid rgb(223, 179, 76);
     margin-left: 30px;
     margin-top: 20px;
