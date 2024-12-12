@@ -217,3 +217,22 @@
         margin-top: 18px;
 
     }
+
+    #trending {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column: 3;
+        grid-row: 4;
+        align-items: center;
+    }
+
+
+    #tegan,
+    #sebastian,
+    #kendall,
+    #alex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
