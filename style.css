@@ -20,7 +20,7 @@
 
     .sidebar {
         background-color: rgb(80, 158, 237);
-        height: 100vh;
+        height: 100%;
         width: 250px;
         position: fixed;
     }
@@ -206,6 +206,7 @@
         justify-content: flex-end;
         gap: 20px;
         margin-top: 50px;
+
     }
 
     #super-cool-project p,
