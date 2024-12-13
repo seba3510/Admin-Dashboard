@@ -136,41 +136,47 @@
         gap: 10px;
     }
 
+    main {
+        margin-top: 1em;
+    }
 
 
 
     #super-cool-project {
         grid-column: 1;
         grid-row: 2;
-        padding: 2em;
+        padding-left: 1em;
     }
 
 
     #impossible-app {
         grid-column: 1;
         grid-row: 3;
+        padding-left: 1em;
     }
 
     #ad-blocker {
         grid-column: 1;
         grid-row: 4;
-        padding: 2em;
+        padding: 1em;
     }
 
     #less-cool-project {
         grid-column: 2;
         grid-row: 2;
-        padding: 2em;
+        padding-left: 1em;
     }
 
     #easy-peasy-app {
         grid-column: 2;
         grid-row: 3;
+        padding-left: 1em;
     }
 
     #money-maker {
         grid-column: 2;
         grid-row: 4;
+        padding-left: 1em;
     }
 
 
@@ -259,5 +265,26 @@
     #searchbar {
         width: 100%;
         height: 90%;
+    }
+
+    #super-cool-project,
+    #less-cool-project,
+    #impossible-app,
+    #ad-blocker,
+    #easy-peasy-app,
+    #money-maker {
+        border-left: 3px solid orange;
+        border-radius: 25px;
+        height: 63%;
+
+    }
+
+    #super-cool-project h3,
+    #less-cool-project h3,
+    #impossible-app h3,
+    #ad-blocker h3,
+    #easy-peasy-app h3,
+    #money-maker h3 {
+        margin-top: 30px;
 
     }
