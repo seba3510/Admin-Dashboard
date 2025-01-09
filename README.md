@@ -16,7 +16,7 @@ This project implements a dashboard design to practice my _CSS Grid_ skills.
 - CSS
 
 ## Demo
-[Live Demo](https://seba3510.github.io/Rock-Paper-Scissors/)
+[Live Demo](https://seba3510.github.io/Admin-Dashboard/)
 
 ## Credits
 - [https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css]
