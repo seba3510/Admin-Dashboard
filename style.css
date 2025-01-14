@@ -134,10 +134,15 @@
         grid-column-start: 2;
         margin-left: 180px;
         gap: 10px;
+
     }
 
     main {
         margin-top: 1em;
+    }
+
+    main>h2 {
+        margin-bottom: 1em;
     }
 
 
@@ -287,4 +292,23 @@
     #money-maker h3 {
         margin-top: 30px;
 
+    }
+
+    #super-cool-project,
+    #less-cool-project,
+    #impossible-app,
+    #easy-peasy-app,
+    #ad-blocker,
+    #money-maker {
+        width: 300px;
+        height: 200px;
+    }
+
+    .icons {
+        margin-top: 1em;
+    }
+
+    #extra-info>#announcements {
+        position: absolute;
+        ;
     }
